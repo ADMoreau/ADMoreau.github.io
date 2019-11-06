@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<title>Austin Moreau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <!-- <img src="face.jpg" style="width:100%"> -->
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#art" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>ART</p>
+  </a>
+  <a href="#research" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-align-justify w3-xxlarge"></i>
+    <!-- requires sidebar px = 120 or is off center-->
+    <p>RESEARCH</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:20% !important">ABOUT</a>
+    <a href="#art" class="w3-bar-item w3-button" style="width:20% !important">ART</a>
+    <a href="#research" class="w3-bar-item w3-button" style="width:20% !important">RESEARCH</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:20% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Austin Moreau</span> </h1>
+    <img src="imagejpeg_0(1).jpg" alt="Pic Here" style="width:50%">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>My name is Austin Moreau and I am currently applying to PhD programs to continue my studies in giving Artificial Intelligence systems creativity and empathy. I have Bachelor's degrees in Computer Science with a focus on Machine Learning and Fine Arts, with a focus on Painting as well as a Minor in Mathematics. I have previously been the Chairman of the Board for a nonprofit dedicated to providing affordable art studio space in Houston, Texas. I have worked as a research assistant in a neuroscience lab as well as a research lead for cybersecurity research. I have worked many years in the service industry and have held internship positions developing Internet of Things technology for automated natural resource  extraction.
+    </p>
+    <!--
+    <div class="w3-center">
+      <button class="w3-button w3-light-grey w3-padding-large w3-section">
+        <i class="fa fa-download"></i> Download CV - Last Two Years
+      </button>
+
+      <button class="w3-button w3-light-grey w3-padding-large w3-section">
+        <i class="fa fa-download"></i> Download CV - Full Work History
+      </button>
+    </div>
+    -->
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="art">
+    <h2 class="w3-text-light-grey">My Art</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <p><br /></p>
+
+    <h3 class="w3-text-light-grey">Painting</h3>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Through my painting I seek to develop an symbolic vocabulary representing an individual's identity, through which I speek while attempting to create art for said individual. I do this through an interview process wherein I generate an understanding of the individual. Using the knowledge gleaned through the interview process, I distill out subconcious aesthetic yearning to understand the image that would represent that individual. 
+
+Below are samples of this process. The images are the images created from this process, while the audio is the raw, unedited interview.
+    </p>
+
+    <!-- Grid for videos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <iframe style="width:80%" src="https://www.youtube.com/embed/cBFD3ikHeJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe style="width:80%" src="https://www.youtube.com/embed/XmHl0dsC4LA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe style="width:80%" src="https://www.youtube.com/embed/JDzhJPyIwaw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe style="width:80%" src="https://www.youtube.com/embed/Au54mnZn2ic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe style="width:80%" src="https://www.youtube.com/embed/Jix2Ed52V80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="w3-half">
+        <iframe style="width:80%" src="https://www.youtube.com/embed/0RmrTDOoiis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe style="width:80%" src="https://www.youtube.com/embed/p5BP_cM2qUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe style="width:80%" src="https://www.youtube.com/embed/7q3K6fMXf-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe style="width:80%" src="https://www.youtube.com/embed/KbUt0oxVnvQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe style="width:80%" src="https://www.youtube.com/embed/4UGGpuwoNXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    <!-- End photo grid -->
+    </div>
+    <p><br /></p>
+    <h3 class="w3-text-light-grey">Not Painting</h3>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-center">
+        <div class="w3-row-padding" style="margin:0 -16px">
+        <p align="middle"><iframe src="https://player.vimeo.com/video/272792563" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+        <p><a href="https://vimeo.com/272792563">Self Conscience/Material Memory prototype demo reel</a> from <a href="https://vimeo.com/user23887883">Eric Todd</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+        <p></p>
+        <p><a href="https://drive.google.com/open?id=0B8ZJ6zAUFvXzN0hQdERmVEdpeDRTMVNPZEFnWERQeW1IVVI4">Self-Conscience/Physical Memory: An immersive, kinetic art installation driven by real-time and archival EEG signals</a></p>
+<blockquote><p>
+Self-Conscience/Physical Memory is a brain-controlled robotic sculpture in the University of Houston’s Noninvasive Brain Machine Interface Laboratory. Motorized and lluminated acrylic ceiling tiles shift the architecture of the space itself in response to EEG data. The height of the panels is driven by alpha power suppression in the central cortical areas, and the tiles’ color shifts with alpha power changes in the occipital and frontal lobes. The EEG data can be input in real-time by a single participant, or, in the absence of user input, the work also serves as a playback device for archival EEG recordings, a physical manifestation of a past experience, of a moment in someone’s life, a person both absent and present in that new moment.</p>
+</blockquote>  
+        <p> Chapter to be included in the upcoming book </p>
+	<p> Brain-Computer Interfaces for Artistic Expression </p>
+        <p> By: Anton Nijholt </p>
+	<p><br /></p>
+        </div>
+    </div>
+
+    <div class="w3-center">
+        <div class="w3-row-padding" style="margin:0 -16px">
+        <p align="middle"><img src="MATT1.gif" alt="matt gif" class="w3-image" width="320" height="240" hspace="20"><img src="MATT2.gif" alt="matt 2 gif" class="w3-image" width="320" height="240" hspace="20"></p>
+        <p><a href="https://drive.google.com/open?id=1QiWQrUxSG07IkHCjAljuqIMGLKqyfmwl">Bayou Shrine</a></p>
+	<blockquote><p>
+The Bayou Shrine is an interactive audio-sequencer which was installed at Mason Park in Houston, TX from April to June 2018 that plays recorded sound clips sourced from interviews of residents of the neighborhood surrounding Mason Park and selections from a sound collage composed by a collaborating audio-engineer. The arrangement of the sound clips is controlled by the participants within the gazebo. The tempo of the eight steps in the audio sequence is controlled by rotating the top half of the central mirror-polished hourglass sculpture. The sound clip that is played at each of the eight steps is determined by the position of the eight wheels affixed to the columns attached to the legs of the gazebo, with each of the eight columns controlling one of the eight steps of the sequence.
+	</p></blockquote>
+	<p> By Matt Fries, Julian Luna, and Austin Moreau </p>
+        </div>
+    </div>
+    <!--
+    <div class="w3-center">
+      <p><br /></p>
+      <button class="w3-button w3-light-grey w3-padding-large w3-section">
+        <i class="fa fa-download"></i> Download Artist Statement
+      </button>
+    </div>
+    -->
+
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Research Section -->
+  <div class="w3-padding-64 w3-content" id="research">
+
+    <h2 class="w3-text-light-grey">Research</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-center">
+      <p><br /></p>
+<p><a href="https://drive.google.com/open?id=1xhUx-_YaWz5U1nefGf0yFtWp3WpIJFax">Sony Focused Research Proposal: Non-verbal Interaction between a Virtual Human and the Real World</a></p>
+
+<p><br /></p>
+<h3 class="w3-text-light-grey">Summer 2018 REU Program</h3>
+      <img src="ObjectDetection.png" style="width:70%">
+<p>Using Machine Vision to Autonomously Segment Video For Research Purposes</p>
+	<blockquote><p>
+Abstract: The necessity for expedient documentation of the actions performed by subjects under recorded observation is necessary for many fields of research to effect the creation of a reference database for correlation of actions and stimuli. This research in particular sought to develop a program capable of documenting the actions a research subject was performing while wearing a cap designed to capture electroencephalography (EEG) signals. The subject in question was under observation for several months in total, which resulted in hundreds of hours of videos requiring documentation to understand how the subject’s activities would appear when represented in EEG. Documenting this amount of video by hand would require weeks of work by a team of volunteers typically. With the creation of software which takes advantage of the latest techniques in machine vision for object detection and recognition, this research resulted in the development of a rudimentary system to accomplish the same goal of video annotation automatically without any supervision from a human. The program was developed and then used to segment 11 sample videos for  practical use-case quantification in the identification of classification accuracy across five classes of actions. The program was able to classify 88% of frames correctly across these sample videos.
+	</p></blockquote>
+
+      <p><br /></p>
+
+      <img src="ML_EEG.png" style="width:70%">
+<p>Using The Deep Learning Architecture Developed by Schirrmeister et al. To Classify EEG Signals Captured During The Creative Process</p>
+	<blockquote><p>
+Abstract: Classifying EEG signals using state of the art deep learning techniques still leaves much to be desired. EEG is known for issues related to statistical noise as well as variance between subjects and even between sessions. The seminal research paper written by Schirrmeister et al., “Deep Learning With Convolutional Neural Networks for EEG Decoding and Visualization” described a deep learning architecture that was shown to be capable of classifying EEG with an accuracy of 92.4%. The EEG in question was EEG captured during the movement of hands and feet of research subjects. The architecture developed by Schirrmeitster et al. was also used to extract feature meaningfulness. Through perturbation of data and analysis of the subsequent change in classification accuracy, the researchers were capable of discovering the EEG channels and neuronal activation frequency bands most necessary in each class. This research was replicated with the intent of classifying actions related to the art production process while preserving the architecture developed in the original paper. 
+	</p></blockquote>
+<p></p>
+<p>Testing The Effectiveness Of The Capsule Network When Classifying EEG</p>
+	<blockquote><p>
+Abstract: The Capsule Network neural network architecture was developed recently by Hinton et al. as an attempt to imitate brain functionality and produce a more effective neural network architecture. The Capsule Network has been shown to be effective at classification of the MNIST hand written digit data set with 99.7% Accuracy while requiring less than 30 epochs to be trained to do so. It has been theorized that the capsule network will be resistant to issues effecting classification accuracy due to noise present in the input data which, if true could be a massive benefit to EEG classification. This research documents the use of The Capsule Network for classifying EEG data alongside more understood techniques. 
+	</p></blockquote>
+      <p><br /></p>
+<h3 class="w3-text-light-grey">Information Security Research and Education Program</h3>
+      <img src="INSuRE.png" style="width:70%">
+      <p><a href="https://drive.google.com/open?id=15Nrnkb7_PDmCJA_fK4yVuQwE0cPRGifi">Developing a Better Static Code Analysis Tool</a></p>
+<blockquote><p>
+Abstract: The aim of this project is to utilize machine learning methods developed for genomic sequencing to more effectively analyze binary executables for feature in code which will reliably indicate security vulnerabilities. First, by translating the binary to a DNA base analogue then, uploading this information to the online genome sequencing algorithm mVista, and finally processing these results the researchers were able to discern a set of features. Then with this information were able to identify the levels of occurence of the features in a set of 10 safe sets of code and a set of 10 unsafe pieces of code. Then through data analytics, the researchers were able to discern the unsafe from the safe code with 92% accuracy.
+	</p></blockquote>
+      
+    </div>
+
+  <!-- End Research Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Houston, TX</p>
+    
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>Email: amoreau876@gmail.com</p>
+      <p><i class="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right"></i><a href="https://github.com/ADMoreau">Github: ADMoreau</a></p>
+    </div>
+  <!-- End Contact Section -->
+  </div>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
